@@ -2,8 +2,10 @@
 
 This is mostly a question about using VIM, so let's to it.
 
-First, you need to setup Git to use Vim as the editor, if that's not the default for you. You can do that by adding to the git config of your choice (none which is local, --global or --system):
-git config --global core.editor vim
+First, you need to setup Git to use Vim as the editor, if that's not the default for you. 
+You can do that by adding to the git config of your choice (none which is local, --global or --system):
+
+_*git config --global core.editor vim*_
 
 Then when you commit, you don't add the -m parameter, leave it blank:
 git commit
